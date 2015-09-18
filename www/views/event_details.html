@@ -1,0 +1,22 @@
+<ion-view view-title="{{event.name}}" ng-controller="eventdtlCtrl">
+    <ion-content class="has-header has-footer">
+
+         <div class="item item-body">
+             <!-- Need to change the API call to get a high res image !-->
+            <img class="full-image" src="{{event.thumbnail}}">
+            <p>
+                {{event.description}}
+            </p>
+            <p>
+            <p class="subdued">Rating: {{event.restrictions}}</p>
+            <p class="subdued">Start: {{event.datetime_start}}</p>
+            <p class="subdued">End: {{event.datetime_end}}</p>
+            <p class="subdued">Location: {{event.address}}</p>
+            </p>
+        </div>
+
+
+    </ion-content>
+</ion-view>
+
+
