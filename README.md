@@ -8,26 +8,27 @@ What problem are we solving? What’s Around Me (WAM) aims to reduce the number 
 ##Tech Stack:
 
 The following technologies were used to create WAM:
-PHP (Phalcon Framework)
-jQuery
-Ionic framework
-Apache Cordova
-Angular JS
-Bootstrap
-HTML and CSS
+-   PHP (Phalcon Framework)
+-   jQuery
+-   Ionic framework
+-   Apache Cordova
+-   Angular JS
+-   Bootstrap
+-   HTML and CSS
 
 ##API List
 
-NZTA (New Zealand Transport Agency)
-Wellynews
-Google API
-Eventfinda
-Wunderground (Metservice data through an American API)
+-   NZTA (New Zealand Transport Agency)
+-   Wellynews
+-   Google API
+-   Eventfinda
+-   Wunderground (Metservice data through an American API)
+-   
 The web application is hosted in a Linux environment on an apache server, this server handled all API calls and was also used to cache the data retrieved by the API’s to provide the user with a faster experience as well as give our API providers a bit of a break.
 
 The Android application was developed using Apache Cordova, AngularJS and the ionic framework.
 
-<img src="http://imgur.com/a/OMt6h.png">
+<img src="http://imgur.com/Aq8eNzN.png">
 
 <img src="http://imgur.com/CbhBJ4B.png">
 
