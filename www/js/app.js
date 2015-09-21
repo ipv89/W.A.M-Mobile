@@ -64,6 +64,11 @@ angular.module('WAM', ['ionic'])
           templateUrl: 'views/event_details.html'
       })
 
+      .state('news_details', {
+          url: '/news_details',
+          templateUrl: 'views/news_details.html'
+      })
+
 
 
         $urlRouterProvider.otherwise('news');
