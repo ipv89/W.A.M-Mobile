@@ -4,7 +4,7 @@
 angular.module('WAM').controller('NewsCtrl', function($scope,$state,$ionicLoading,wamApi, locationsvc, news_service) {
 
 
-    console.log("Use it you fuck: ", locationsvc.get);
+    console.log("GPS Data: ", locationsvc.get);
 
 
         $scope.show = function () {
