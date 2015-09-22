@@ -7,7 +7,7 @@ angular.module("WAM").factory('event_service', function ($http) {
     //required, this will be overritten each time the user selects a new event.
 
     var selected_event = {};
-
+console.log("Object from service", selected_event)
     return selected_event;
 
 
