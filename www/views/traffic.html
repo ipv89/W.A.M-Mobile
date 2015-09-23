@@ -11,6 +11,8 @@
                     <div class="col col-75">
                         <h2 class="list_heading">{{issue.properties.locationArea}}</h2>
                         <p>{{issue.properties.eventComments | limitTo:150}}</p>
+                        <p>{{issue.properties.eventCreated | limitTo:150}}</p>
+
                     </div>
                     <div class="col"> <p class="kilo_news wam_right ">{{issue.distance}}<small>kms</small></p></div>
                 </div>
@@ -18,10 +20,7 @@
                 <i class="icon ion-chevron-right icon-accessory"></i>
 
 
-                <!-- We will used it if we have time
-                <ion-option-button class="button-assertive" ng-click="remove(event)">
-                  Delete
-                </ion-option-button>-->
+
             </ion-item>
         </ion-list>
     </ion-content>
