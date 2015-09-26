@@ -22,6 +22,7 @@ The following technologies were used to create WAM:
 -   Wellynews
 -   Google API
 -   Eventfinda
+-   Wunderground
 -   Wunderground (Metservice data through an American API)
 -   
 The web application is hosted in a Linux environment on an apache server, this server handled all API calls and was also used to cache the data retrieved by the API’s to provide the user with a faster experience as well as give our API providers a bit of a break.
