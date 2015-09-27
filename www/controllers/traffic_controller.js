@@ -1,7 +1,7 @@
 /**
  * Created by mike on 16/08/15.
  */
-angular.module('WAM').controller('trafficctl', function($scope , $ionicLoading,wamApi,traffic_service) {
+angular.module('WAM').controller('trafficctl', function($scope,$state , $ionicLoading,wamApi,traffic_service) {
 
 
 
@@ -30,13 +30,13 @@ angular.module('WAM').controller('trafficctl', function($scope , $ionicLoading,w
 
 
 
-    $scope.gettrafficdetail = function (info){
+    $scope.gettrafficdetail = function (trafic_info){
 
 
-        traffic_service.selected_traffic_event = info;
+        traffic_service.selected_traffic_event = trafic_info;
+console.log("I have been called for detail", trafic_info);
 
-
-        $state.go("trafic_details");
+        $state.go("traffic_details");
     }
 
 

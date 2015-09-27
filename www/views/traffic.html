@@ -6,6 +6,7 @@
                       href="#/tab/road/{{issue.id}}/{{issue.properties.locationArea}}/{{issue.properties.eventComments | limitTo:150}}/{{issue.distance}}">
                 <!--
                 <img ng-src="http://placehold.it/32x32">!-->
+                <div ng-click="gettrafficdetail(issue)">
                 <div class="row">
 
                     <div class="col col-75">
@@ -18,7 +19,7 @@
                 </div>
 
                 <i class="icon ion-chevron-right icon-accessory"></i>
-
+                </div>
 
 
             </ion-item>
