@@ -4,7 +4,7 @@
 angular.module('WAM').controller('NewsCtrl', function($scope,$state,$ionicLoading,wamApi, locationsvc, news_service) {
 
 
-    console.log("GPS Data: ", locationsvc.get);
+
 
 
         $scope.show = function () {
@@ -24,7 +24,7 @@ angular.module('WAM').controller('NewsCtrl', function($scope,$state,$ionicLoadin
         //console.log("getNews", response)
         if (response.success) {
             // var $data = JSON.parse(response.data);
-            console.log("getNews",response.data)
+
             $scope.news_items = response.data;
             $scope.hide();
         }
