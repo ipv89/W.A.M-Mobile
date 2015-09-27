@@ -21,7 +21,7 @@ angular.module("WAM").factory('wamApi', function ($http) {
     var api = {
         //http://wam.nzhost.me/api/getEvents/?longitude=174.777290&latitude=-41.306481
         path: "http://wam.nzhost.me/api/",
-        key: "",//note implmented
+        key: "",//not implmented
         call: function (call) {
             return this.path + call + '?callback=JSON_CALLBACK';
         }
