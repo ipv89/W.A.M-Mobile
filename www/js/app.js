@@ -17,22 +17,15 @@ angular.module('WAM', ['ionic'])
   });
 })
 
-    .service('thisservice', function () {
+   /* .service('thisservice', function () {
 
         var thisvar = {idex:1};
 
 
 })
+*/
 
-
-
-
-
-
-
-
-
-.config(function($stateProvider, $urlRouterProvider) {
+ .config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider.state('news', {
     url: '/news',
@@ -57,6 +50,10 @@ angular.module('WAM', ['ionic'])
       .state('news_details', {
           url: '/news_details',
           templateUrl: 'views/news_details.html'
+      })
+      .state('traffic_details', {
+          url: '/traffic_details',
+          templateUrl: 'views/traffic_details.html'
       })
 
 

@@ -1,5 +1,6 @@
 /**
  * Created by mike on 15/08/15.
+ *
  */
 angular.module('WAM').controller('EventCtrl', function($scope,$state, $ionicLoading,wamApi, event_service) {
 

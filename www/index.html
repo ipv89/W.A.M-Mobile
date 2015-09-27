@@ -8,11 +8,11 @@
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+          <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+          <link href="css/ionic.app.css" rel="stylesheet">
+          -->
+      <!-- ionic/angularjs js -->
 
-    <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
@@ -24,7 +24,7 @@
       <script src="services/wam_api.js"></script>
       <script src="services/event_service.js"></script>
       <script src="services/news_service.js"></script>
-      <script src="service/traffic_service"></script>
+      <script src="services/traffic_service.js"></script>
       <script src="controllers/event_detail_controller.js"></script>
       <script src="controllers/weather_controller.js"></script>
       <script src="controllers/news_controller.js"></script>
@@ -35,6 +35,8 @@
       <script src="controllers/traffic_detail_controller.js"></script>
 
   </head>
+
+
 
   <body ng-app="WAM">
     <ion-nav-bar class="bar bar-header bar-balanced"  ng-controller="homectrl">
@@ -77,7 +79,6 @@
 
 
     </ion-tabs>
-
 
   </body>
 
