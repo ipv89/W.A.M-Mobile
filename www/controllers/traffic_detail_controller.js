@@ -6,6 +6,6 @@ angular.module('WAM').controller('trafficdtlctrl', function($scope, $ionicLoadin
     var this_trafic = traffic_service.selected_traffic_event;
     $scope.traffic = this_trafic;
 
-    console.log("we are playing with", this_trafic)
+    console.log("we are playing with traffic item:::", this_trafic)
 
 })

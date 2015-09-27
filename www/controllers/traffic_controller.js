@@ -33,8 +33,9 @@ angular.module('WAM').controller('trafficctl', function($scope,$state , $ionicLo
     $scope.gettrafficdetail = function (trafic_info){
 
 
-        traffic_service.selected_traffic_event = trafic_info;
-console.log("I have been called for detail", trafic_info);
+        traffic_service.selected_traffic_event = trafic_info
+
+//console.log("traffic id::", trafic_info.properties.id);
 
         $state.go("traffic_details");
     }
