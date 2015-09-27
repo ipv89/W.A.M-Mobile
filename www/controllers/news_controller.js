@@ -5,7 +5,7 @@ angular.module('WAM').controller('NewsCtrl', function($scope,$state,$ionicLoadin
 
 
 
-
+console.log(locationsvc.location);
 
         $scope.show = function () {
         $ionicLoading.show({
