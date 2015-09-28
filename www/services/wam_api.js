@@ -4,11 +4,11 @@
 
 
 var prams = {
-
+    //get gps data
+    //longitude=174.777290&latitude=-41.306481
     longitude : 174.777290,
     latitude : -41.306481
 }
-
 
 
 /**

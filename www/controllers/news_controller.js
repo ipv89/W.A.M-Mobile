@@ -1,11 +1,10 @@
 /**
  * Created by mike on 15/08/15.
  */
-angular.module('WAM').controller('NewsCtrl', function($scope,$state,$ionicLoading,wamApi, locationsvc, news_service) {
+angular.module('WAM').controller('NewsCtrl', function($scope,$state,$ionicLoading,wamApi, news_service) {
 
 
 
-console.log(locationsvc.location);
 
         $scope.show = function () {
         $ionicLoading.show({
@@ -21,9 +20,9 @@ console.log(locationsvc.location);
 
 
     wamApi('getNews', prams).then(function (response) {
-        //console.log("getNews", response)
+        console.log("getNews", response)
         if (response.success) {
-            // var $data = JSON.parse(response.data);
+           //  var $data = JSON.parse(response.data);
 
             $scope.news_items = response.data;
             $scope.hide();

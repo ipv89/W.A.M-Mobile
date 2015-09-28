@@ -8,14 +8,14 @@ angular.module('WAM').service('locationsvc', function ($http) {
 
 
 
-
-
+var p;
 
     function onSuccess(position) {
-
-        return position;
+ p = position;
+        return p;
     }
-
+var x = onSuccess(p);
+    console.log("x = ", x);
 function onError(error) {
 
 
